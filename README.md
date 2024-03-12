@@ -11,7 +11,7 @@ python ffmpeg_splitter.py source.mp4 1000000000 -t "out.mp4" # Will split `sourc
 
 *From Python*
 ``` python
-from py-ffmpeg-splitter import ffmpeg_splitter.split_by_size
+from ffmpeg_splitter import split_by_size
 
 if __name__ == "__main__":
     split_by_size("my_file.mp4", 1000000000, print_function=print) # Will also print output and useful information
